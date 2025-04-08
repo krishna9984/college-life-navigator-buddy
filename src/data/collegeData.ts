@@ -132,6 +132,30 @@ export const collegeCategories: CategoryType[] = [
         url: "https://www.indeed.com/career-advice/resumes-cover-letters/college-student-resume"
       }
     ]
+  },
+  {
+    id: "government",
+    title: "Government Jobs",
+    description: "Preparing for government exams while in college",
+    icon: "landmark",
+    color: "college-teal",
+    tips: [
+      "Research specific government exams relevant to your field early",
+      "Create a balanced study schedule that complements your coursework",
+      "Form study groups with peers preparing for similar exams",
+      "Take advantage of mock tests and previous year papers",
+      "Develop time management skills to handle both college and exam prep"
+    ],
+    resources: [
+      {
+        title: "Government Job Exam Calendars",
+        url: "https://www.usajobs.gov/Search/Results?hp=student"
+      },
+      {
+        title: "Civil Service Exam Preparation",
+        url: "https://www.govloop.com/community/blog/5-ways-prepare-civil-service-exam/"
+      }
+    ]
   }
 ];
 

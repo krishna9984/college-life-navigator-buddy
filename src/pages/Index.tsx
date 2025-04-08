@@ -6,7 +6,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import CategoryCard from '@/components/CategoryCard';
 import QuoteBanner from '@/components/QuoteBanner';
 import { collegeCategories } from '@/data/collegeData';
-import { GraduationCap, Search, BookOpen, HeartPulse, Users, Wallet, Briefcase } from 'lucide-react';
+import { GraduationCap, Search, BookOpen, HeartPulse, Users, Wallet, Briefcase, Landmark } from 'lucide-react';
 
 const Index = () => {
   const [searchQuery, setSearchQuery] = useState('');
@@ -24,6 +24,7 @@ const Index = () => {
     "social": <Users className="h-4 w-4" />,
     "finance": <Wallet className="h-4 w-4" />,
     "career": <Briefcase className="h-4 w-4" />,
+    "government": <Landmark className="h-4 w-4" />,
   };
 
   return (

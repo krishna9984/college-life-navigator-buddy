@@ -1,9 +1,8 @@
-
 import React, { useState } from 'react';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
-import { Book, Heart, Users, Briefcase, Wallet, BookOpen, HeartPulse, ChevronDown, ChevronUp, ExternalLink } from 'lucide-react';
+import { Book, Heart, Users, Briefcase, Wallet, BookOpen, HeartPulse, ChevronDown, ChevronUp, ExternalLink, Landmark } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { CategoryType } from '@/data/collegeData';
 import ResourceLink from './ResourceLink';
@@ -18,6 +17,7 @@ const iconMap: Record<string, React.ReactNode> = {
   "users": <Users className="h-5 w-5" />,
   "wallet": <Wallet className="h-5 w-5" />,
   "briefcase": <Briefcase className="h-5 w-5" />,
+  "landmark": <Landmark className="h-5 w-5" />,
 };
 
 const colorMap: Record<string, string> = {
@@ -26,6 +26,7 @@ const colorMap: Record<string, string> = {
   "college-orange": "bg-orange-100 text-orange-700 border-orange-200",
   "college-green": "bg-green-100 text-green-700 border-green-200",
   "college-red": "bg-red-100 text-red-700 border-red-200",
+  "college-teal": "bg-teal-100 text-teal-700 border-teal-200",
 };
 
 const CategoryCard: React.FC<CategoryCardProps> = ({ category }) => {
