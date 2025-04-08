@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,15 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+                // College theme colors
+                college: {
+                    blue: '#1e40af',
+                    purple: '#7e22ce',
+                    orange: '#ea580c',
+                    green: '#15803d',
+                    red: '#b91c1c',
+                }
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -84,12 +93,21 @@ export default {
 					to: {
 						height: '0'
 					}
-				}
+				},
+                'float': {
+                    '0%, 100%': { transform: 'translateY(0)' },
+                    '50%': { transform: 'translateY(-10px)' }
+                }
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
-			}
+				'accordion-up': 'accordion-up 0.2s ease-out',
+                'float': 'float 3s ease-in-out infinite'
+			},
+            fontFamily: {
+                sans: ['Inter', 'sans-serif'],
+                display: ['Lexend', 'sans-serif']
+            }
 		}
 	},
 	plugins: [require("tailwindcss-animate")],
