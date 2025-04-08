@@ -1,16 +1,16 @@
-# Welcome to your Lovable project
+# Welcome to my college navigator project
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/e0a8794d-7d1d-42f7-9842-850dd04d93ca
+**URL**: https://lovable.dev/projects/e0a8794d-7d1d-42f7-9842-850dd04d93ca // go through to know more about project
 
 ## How can I edit this code?
 
 There are several ways of editing your application.
 
-**Use Lovable**
+**Use vs code editor**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/e0a8794d-7d1d-42f7-9842-850dd04d93ca) and start prompting.
+Simply visit the(https://lovable.dev/projects/e0a8794d-7d1d-42f7-9842-850dd04d93ca) and start prompting.
 
 Changes made via Lovable will be committed automatically to this repo.
 
@@ -70,4 +70,4 @@ Yes it is!
 
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+thankyou
