@@ -160,6 +160,38 @@ export const collegeCategories: CategoryType[] = [
         url: "https://www.ibps.in/"
       }
     ]
+  },
+  {
+    id: "coding",
+    title: "Coding Skills",
+    description: "Becoming a proficient coder within 6 months",
+    icon: "code",
+    color: "college-blue",
+    tips: [
+      "Code consistently for 2-4 hours daily, even if just solving small problems",
+      "Follow a structured learning path: fundamentals → data structures → projects",
+      "Practice problem-solving on platforms like LeetCode and HackerRank",
+      "Build real projects that solve actual problems to apply your learning",
+      "Join coding communities and get feedback from experienced developers"
+    ],
+    resources: [
+      {
+        title: "freeCodeCamp - Full Curriculum",
+        url: "https://www.freecodecamp.org/"
+      },
+      {
+        title: "The Odin Project",
+        url: "https://www.theodinproject.com/"
+      },
+      {
+        title: "LeetCode for Algorithm Practice",
+        url: "https://leetcode.com/"
+      },
+      {
+        title: "GitHub Learning Lab",
+        url: "https://lab.github.com/"
+      }
+    ]
   }
 ];
 
