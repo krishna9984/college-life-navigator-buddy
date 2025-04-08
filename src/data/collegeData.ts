@@ -136,24 +136,28 @@ export const collegeCategories: CategoryType[] = [
   {
     id: "government",
     title: "Government Jobs",
-    description: "Preparing for government exams while in college",
+    description: "Preparing for Indian government exams while in college",
     icon: "landmark",
     color: "college-teal",
     tips: [
-      "Research specific government exams relevant to your field early",
-      "Create a balanced study schedule that complements your coursework",
-      "Form study groups with peers preparing for similar exams",
-      "Take advantage of mock tests and previous year papers",
-      "Develop time management skills to handle both college and exam prep"
+      "Start preparing for UPSC, SSC, Banking, and Railway exams early in college",
+      "Follow Sarkari Result website regularly for latest job notifications",
+      "Focus on improving General Knowledge, Reasoning and Quantitative Aptitude",
+      "Practice with previous years' question papers from official sources",
+      "Join test series and mock exams to improve exam temperament"
     ],
     resources: [
       {
-        title: "Government Job Exam Calendars",
-        url: "https://www.usajobs.gov/Search/Results?hp=student"
+        title: "Sarkari Result - Latest Jobs",
+        url: "https://www.sarkariresult.com/"
       },
       {
-        title: "Civil Service Exam Preparation",
-        url: "https://www.govloop.com/community/blog/5-ways-prepare-civil-service-exam/"
+        title: "SSC (Staff Selection Commission)",
+        url: "https://ssc.nic.in/"
+      },
+      {
+        title: "IBPS (Banking Exams)",
+        url: "https://www.ibps.in/"
       }
     ]
   }
